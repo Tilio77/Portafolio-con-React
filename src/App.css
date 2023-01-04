@@ -101,6 +101,14 @@ section {
   grid-gap: 30px;
 }
 
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 50vh;
+  place-items: center;
+  text-align: center;
+}
+
 /* Header */
 header {
   background-color: var(--headingColor);
@@ -213,3 +221,22 @@ header a {
   margin-top: 20px;
 }
 
+/* Contador */
+.counter {
+  margin-top: 180px;
+  position: relative;
+}
+
+.hero.counter::after {
+  background-image: url("../public/images/some-facts-bg.png");
+  height: 50vh;
+}
+
+.counter h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.counter h3 {
+  font-size: 18px;
+}
