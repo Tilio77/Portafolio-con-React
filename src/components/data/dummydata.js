@@ -3,15 +3,15 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined
 export const navlink = [
   {
     url: "/",
-    text: "Home",
+    text: "Inicio",
   },
   {
     url: "/about",
-    text: "About",
+    text: "Nosotros",
   },
   {
     url: "/services",
-    text: "Services",
+    text: "Servicios",
   },
   {
     url: "/portfolio",
@@ -19,7 +19,7 @@ export const navlink = [
   },
   {
     url: "/testimonials",
-    text: "Testimonials",
+    text: "Testimonios",
   },
   {
     url: "/blog",
@@ -27,15 +27,15 @@ export const navlink = [
   },
   {
     url: "/contact",
-    text: "Contact",
+    text: "Contacto",
   },
 ]
 export const home = [
   {
-    text: "HELLO I'M",
-    name: "ALAMIN MUSA",
-    post: "WEB DESIGNER",
-    design: "UI / UX DESIGNER",
+    text: "HOLA YO SOY",
+    name: "VALENTÍN QUIJANO",
+    post: "DISEÑADOR WEB",
+    design: "DISEÑADOR UI / UX",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
   },
 ]
@@ -50,19 +50,19 @@ export const services = [
   {
     id: 1,
     icon: <Settings />,
-    title: "Creative Design",
+    title: "Diseño creativo",
     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
   },
   {
     id: 2,
     icon: <CropRotate />,
-    title: "Clean Code",
+    title: "Codigo limpio",
     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
   },
   {
     id: 3,
     icon: <ViewInAr />,
-    title: "Responsive Design",
+    title: "Diseño responsivo",
     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
   },
   {
@@ -80,7 +80,7 @@ export const services = [
   {
     id: 6,
     icon: <BarChart />,
-    title: "Awesome Support",
+    title: "Excelente soporte",
     desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
   },
 ]
@@ -89,69 +89,69 @@ export const project = [
     id: 1,
     icon: <CloudOutlined />,
     num: "89",
-    title: "HAPPY CLIENTS",
+    title: "CLIENTES FELICES",
   },
   {
     id: 2,
     icon: <FavoriteBorder />,
     num: "231",
-    title: "PROJECTS COMPLEATED",
+    title: "PROYECTOS COMPLETADOS",
   },
   {
     id: 3,
     icon: <Public />,
     num: "108",
-    title: "FILES DOWNLOADED",
+    title: "ARCHIVOS DESCARGADOS",
   },
   {
     id: 4,
     icon: <PersonOutlined />,
     num: "1446",
-    title: "LIENS OF CODE",
+    title: "LÍNEAS DE CÓDIGO",
   },
 ]
 export const portfolio = [
   {
     id: 1,
     cover: "../images/port/port1.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
+    name: "Marca",
+    category: "Marketing",
+    title: "Logotipo de Brex",
   },
   {
     id: 2,
     cover: "../images/port/port2.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
+    name: "Marca",
+    category: "Diseño",
+    title: "Logotipo de Brex",
   },
   {
     id: 3,
     cover: "../images/port/port3.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
+    name: "Marca",
+    category: "Desarrollo",
+    title: "Logotipo de Brex",
   },
   {
     id: 4,
     cover: "../images/port/port4.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
+    name: "Marca",
+    category: "Marketing",
+    title: "Logotipo de Brex",
   },
   {
     id: 5,
     cover: "../images/port/port5.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
+    name: "Marca",
+    category: "Diseño",
+    title: "Logotipo de Brex",
   },
   {
     id: 6,
     cover: "../images/port/port6.jpg",
-    name: "Brand",
-    category: "development",
-    title: "Brex Logo",
+    name: "Marca",
+    category: "Desarrollo",
+    title: "Logotipo de Brex",
   },
 ]
 export const testimonials = [
@@ -160,21 +160,21 @@ export const testimonials = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-1.png",
     name: "Alamin Musa",
-    post: "Front End Developer",
+    post: "Desarrollador Front End",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-2.png",
     name: "Alex Ander",
-    post: "Back End Developer",
+    post: "Programador Back End",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-3.png",
     name: "GorkCoder",
-    post: "React Developer",
+    post: "Programador de React",
   },
 ]
 export const blog = [
