@@ -6,6 +6,7 @@ import Counter from "../pages/Counter";
 import Portfolio from "../pages/Portfolio";
 import Testimonials from "../pages/Testimonials";
 import Blog from "../pages/Blog";
+import Contact from "../pages/Contact";
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<Portfolio />
 			<Testimonials />
 			<Blog />
+			<Contact />
 		</div>
 	)
 }
