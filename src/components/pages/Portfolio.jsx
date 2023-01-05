@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { portfolio } from '../data/dummydata';
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
+import Heading from '../common/Heading';
 
 const allCategory = ['Todos', ...new Set(portfolio.map((item) => item.category))]
 
@@ -22,6 +23,7 @@ const Portfolio = () => {
 		<>
 			<article>
 				<div className="container">
+					<Heading title="Portfolio" />
 					<div className="catButton">
 						{category.map((category) => (
 							<button className="primaryBtn" onClick={() => filterItems(category)}>
