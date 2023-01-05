@@ -353,3 +353,42 @@ label {
   margin: 10px 0;
   display: inline-block;
 }
+
+/* Blog */
+.blog img {
+  width: 100%;
+}
+
+.blog .box {
+  background-color: var(--primaryBackground);
+  border-radius: 10px;
+}
+
+.blog .text {
+  padding: 10px 30px;
+}
+
+/* Contacto */
+.contact {
+  margin: 20px 0;
+}
+
+.contact .right,
+.contact .left {
+  padding: 20px;
+}
+
+.contact .flex input:nth-child(1) {
+  margin-right: 10px;
+}
+
+.contact button, 
+.contact textarea, 
+.contact input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}

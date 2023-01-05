@@ -7,6 +7,7 @@ import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
 import Testimonials from './components/pages/Testimonials';
 import Blog from './components/pages/Blog';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/testimonials" component={Testimonials} />
           <Route exact path="/blog" component={Blog} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </Router>
     </>
