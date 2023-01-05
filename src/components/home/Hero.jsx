@@ -8,7 +8,7 @@ const Hero = () => {
 			<section className="hero">
 				{home.map((val,i) => (
 					<div className="heroContainer">
-						<h3>{val.text}</h3>
+						<h3 data-aos="fade-right">{val.text}</h3>
 						<h1>
 							<Typewriter
                 options={{
@@ -18,8 +18,8 @@ const Hero = () => {
                 }}
               />
 						</h1>
-						<p>{val.desc}</p>
-						<button className="primaryBtn">Descargar CV</button>
+						<p data-aos="fade-left">{val.desc}</p>
+						<button className="primaryBtn" data-aos="fade-up-right">Descargar CV</button>
 					</div>
 				))}
 			</section>
