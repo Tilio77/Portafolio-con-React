@@ -405,3 +405,38 @@ footer i {
   margin: 5px;
   color: var(--primaryColor);
 }
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 60vh
+  }
+
+  .heroContainer {
+    max-width: 80%;
+  }
+
+  .hero::after {
+    height: 60vh;
+  }
+
+  section {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .contact .flexsb,
+  .about .flex {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%
+  }
+
+  .grid3,
+  .grid4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
