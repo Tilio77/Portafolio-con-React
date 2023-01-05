@@ -5,6 +5,8 @@ import Home from './components/home/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
+import Testimonials from './components/pages/Testimonials';
+import Blog from './components/pages/Blog';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/testimonials" component={Testimonials} />
+          <Route exact path="/blog" component={Blog} />
         </Switch>
       </Router>
     </>
