@@ -27,14 +27,14 @@ const Portfolio = () => {
 					<Heading title="Portfolio" />
 					<div className="catButton">
 						{category.map((category) => (
-							<button className="primaryBtn" onClick={() => filterItems(category)}>
+							<button className="primaryBtn" onClick={() => filterItems(category)} data-aos="zoom-out-down">
 								{category}
 							</button>
 						))}
 					</div>
 					<div className="content grid3">
 						{list.map((items) => (
-							<div className="box">
+							<div className="box" data-aos="fade-up">
 								<div className="img">
 									<img src={items.cover} alt="" />
 								</div>

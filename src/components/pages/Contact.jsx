@@ -12,12 +12,12 @@ const Contact = () => {
 						<div className="right">
 							<form>
 								<div className="flex">
-									<input type="text" placeholder="Nombre completo" />
-									<input type="text" placeholder="Correo electrónico" />
+									<input type="text" placeholder="Nombre completo" data-aos="zoom-in-down" />
+									<input type="text" placeholder="Correo electrónico" data-aos="zoom-in-up" />
 								</div>
-								<input type="text" placeholder="Asunto" />
-								<textarea name="" id="" cols="30" placeholder="Escribe tu mensaje..." rows="10"></textarea>
-								<button>Enviar</button>
+								<input type="text" placeholder="Asunto" data-aos="zoom-in-up" />
+								<textarea data-aos="zoom-in-down" name="" id="" cols="30" placeholder="Escribe tu mensaje..." rows="10"></textarea>
+								<button data-aos="zoom-in-down">Enviar</button>
 							</form>
 						</div>
 						<div className="left">
