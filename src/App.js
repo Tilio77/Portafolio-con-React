@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/common/Header';
+import Footer from './components/common/Footer';
 import Home from './components/home/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services';
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+      <Footer />
       </Router>
     </>
   );
