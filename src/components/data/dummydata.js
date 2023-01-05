@@ -180,7 +180,7 @@ export const testimonials = [
 export const blog = [
   {
     id: 1,
-    title: "Master These Awesome",
+    title: "Domina estas imprecionantes...",
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
@@ -188,7 +188,7 @@ export const blog = [
   },
   {
     id: 2,
-    title: "Best Design Items to Appeal",
+    title: "Los mejores artículos de diseño para atraer",
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
@@ -196,7 +196,7 @@ export const blog = [
   },
   {
     id: 3,
-    title: "The 20 Best Lightroom Presets",
+    title: "Los 20 mejores ajustes preestablecidos",
     date: "Jun 27, 2022",
     author: "Dorian Gray",
     desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
